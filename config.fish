@@ -2,8 +2,9 @@ if status is-interactive
   set -x EDITOR nvim
   set -x VISUAL nvim
   set -a PATH ./scripts
+  set -a PATH ./bin
 
-  alias ll="exa -lah --icons --group-directories-first"
+  alias ll="eza -lah --icons --group-directories-first"
   # alias vim="nvim"
   # alias vi="nvim"
   # alias v="nvim"
